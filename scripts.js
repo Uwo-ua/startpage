@@ -47,7 +47,7 @@ searchButton.onclick = search
  * inject bookmarks into html
  */
 
-const bookmarks = [{"id":"tcOGKpPd3BNOnsZJ","label":"Git","bookmarks":[{"id":"88rx3DAMgiSjBZoM","label":"uwo/github ","url":"https://github.com/Uwo-ua"},{"id":"jJYpinC47cGBxLQ8","label":"nvim/lsp","url":"https://github.com/Uwo-ua/nvim-lspconfig"}]},{"id":"RbUcX6gAowWPFx1H","label":"contact","bookmarks":[{"id":"zF1CndHqOhtYFwWJ","label":"Class","url":"https://classroom.google.com/u/1/"},{"id":"Xi8VtWYCETQRaqgi","label":"Noteclass","url":"https://nz.ua/dashboard/news"},{"id":"y1QzrqrLTOTvr3BP","label":"reddit","url":"https://www.reddit.com/"}]}]
+const bookmarks = [{"id":"tcOGKpPd3BNOnsZJ","label":"Git","bookmarks":[{"id":"88rx3DAMgiSjBZoM","label":"uwo/github ","url":"https://github.com/Uwo-ua"},{"id":"jJYpinC47cGBxLQ8","label":"nvim/lsp","url":"https://github.com/Uwo-ua/nvim-lspconfig"}]},{"id":"RbUcX6gAowWPFx1H","label":"contact","bookmarks":[{"id":"y1QzrqrLTOTvr3BP","label":"reddit","url":"https://www.reddit.com/"}]}]
 
 const createGroupContainer = () => {
   const container = document.createElement("div")
