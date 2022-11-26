@@ -46,8 +46,7 @@ searchButton.onclick = search
 /**
  * inject bookmarks into html
  */
-
-const bookmarks = [{"id":"tcOGKpPd3BNOnsZJ","label":"Git","bookmarks":[{"id":"88rx3DAMgiSjBZoM","label":"uwo/github ","url":"https://github.com/Uwo-ua"},{"id":"jJYpinC47cGBxLQ8","label":"nvim/lsp","url":"https://github.com/Uwo-ua/nvim-lspconfig"}]},{"id":"RbUcX6gAowWPFx1H","label":"contact","bookmarks":[{"id":"y1QzrqrLTOTvr3BP","label":"reddit","url":"https://www.reddit.com/"}]}]
+const bookmarks = [{"id":"N5POThxNOpcsgxzB","label":"Sites","bookmarks":[{"id":"LnUln294GKASKvhx","label":"Typer","url":"https://monkeytype.com/"},{"id":"a2nL67QQMXQvsHCx","label":"Themes","url":"https://rosepinetheme.com/palette"},{"id":"eftYDNzaLvRuHXRH","label":"Reddit","url":"https://www.reddit.com/"},{"id":"AQMw44Oj3BAqfB2s","label":"Hoogle","url":"https://hoogle.haskell.org/"}]},{"id":"oirfdD0qTSkk271t","label":"Git","bookmarks":[{"id":"IuAIqbv9j7zURfOB","label":"git/main","url":"https://github.com/Uwo-ua"},{"id":"Vv6p2lhkA14YaFw6","label":"git/htyper","url":"https://github.com/Simon-Hostettler/htyper"},{"id":"B7Li9W3YFQH8CDeB","label":"git/nvimlsp","url":"https://github.com/Uwo-ua/nvim-lspconfig"},{"id":"k6W7uspbweMSp9B4","label":"git/doomemacs","url":"https://github.com/doomemacs/doomemacs"}]}]
 
 const createGroupContainer = () => {
   const container = document.createElement("div")
